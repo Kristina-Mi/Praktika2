@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: calc(6px + 1vw);
+    row-gap: 4vh;
+    margin-bottom: 7vh;
+}
+
+.foot_item{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    column-gap: 2vw;
+}
+
+.foot_item p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

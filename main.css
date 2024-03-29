@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.head {
+  color: white;
+  font-family: "Playfair Display";
+  font-size: calc(32px + 3vw);
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50vw;
+  max-width: 90%;
+  margin: 5vh 5vw;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: calc(6px + 1.1vw);
+}
+
+.nav_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 2vw;
+  column-gap: 3vw;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.nav_items p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.design {
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+  color: white;
+  font-family: "Inter", sans-serif;
+  z-index: 3;
+  position: relative;
+}
+
+.design img {
+  width: 30vw;
+}
+
+.design_item_1 {
+  grid-column-start: span 2;
+  font-size: calc(8px + 0.9vw);
+  margin: 5vh 0 0 5vw;
+}
+
+.design_item_2 {
+  grid-row-start: span 2;
+  justify-self: end;
+}
+
+.design_item_3 {
+  grid-row-start: span 2;
+  justify-self: start;
+}
+
+.design_item_4 {
+  grid-column-start: span 2;
+  font-size: calc(14px + 1vw);
+  font-weight: 600;
+  color: black;
+  padding: 1.5vh 1.5vw;
+  border: 1px solid white;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  margin: 14vh 0 0 15vw;
+}
+
+.design_item_4:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.creative_design {
+  z-index: 10;
+  color: white;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: calc(50px + 8vw);
+  position: absolute;
+  text-align: center;
+  top: 4vh;
+  left: 25%;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5vh;
+  margin-top: 15vh;
+  font-weight: 400;
+}
+
+.art_grid img {
+  width: 90%;
+}
+
+.art_grid {
+  display: grid;
+  grid-template: repeat(5, auto)/repeat(2, auto);
+  margin: 2vh 7vw;
+  justify-items: center;
+  row-gap: 10vh;
+  column-gap: 0px;
+}
+
+.art_item_1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.art_item_2 {
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.art_item_3 {
+  grid-row: 4/row-end;
+}
+
+.art_item_4 {
+  align-self: flex-start;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30vh;
+}
+
+.about_items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-size: calc(17px + 1vw);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  column-gap: 4vw;
+  margin: 10vh;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7vh;
+  width: 40vw;
+}
+
+.about img {
+  width: 40vw;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  row-gap: 4vh;
+  margin: 0 4.5vw;
+  position: relative;
+}
+
+.under_head {
+  text-align: center;
+}
+
+.test_item {
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  padding: 2vh 2.5vw 2vh 1vw;
+  row-gap: 3.5vh;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1vw;
+  margin-top: 2vh;
+}
+
+.arrow2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1vw;
+  margin-top: 2vh;
+  padding-bottom: 3.2vh;
+}
+
+.arrow p {
+  font-size: calc(6px + 0.8vw);
+  font-weight: 500;
+}
+
+.btn {
+  text-align: center;
+  border: 1px solid white;
+  font-size: calc(9px + 1vw);
+  font-weight: 600;
+  padding: 3vh 1vw;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.head2 {
+  font-size: calc(25px + 1vw);
+  font-weight: 600;
+}
+
+.under_head2 {
+  font-size: calc(6px + 0.75vw);
+  font-weight: 300;
+}
+
+.item_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 65%;
+  align-self: flex-start;
+  z-index: 11;
+  margin-top: 15vh;
+}
+
+/*.item_1 img[alt="man"]{
+    height: 50vh;
+}
+
+.item_3 img[alt="man"]{
+    height: 50vh;
+}*/
+.item_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 30%;
+  align-self: flex-end;
+  z-index: 12;
+  position: absolute;
+  top: 30vh;
+  margin-top: 15vh;
+}
+
+.item_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 65%;
+  align-self: flex-start;
+  margin-bottom: 15vh;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45vh;
+  margin-bottom: 80vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  color: white;
+  align-items: flex-start;
+  row-gap: 7vh;
+  margin-top: 4vh;
+}
+
+.form_item {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  row-gap: 2vh;
+}
+
+label {
+  font-size: calc(28px + 1vw);
+  font-weight: 400;
+}
+
+input:read-write {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color: black;
+  padding: 2vh 0.1vw;
+  caret-color: white;
+}
+
+input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: calc(9px + 1vw);
+  color: #BBBBBB;
+}
+
+input[type=submit] {
+  color: black;
+  border: 1px solid white;
+  padding: 1.5vh 3vw;
+  font-size: calc(22px + 1vw);
+  font-weight: 600;
+  margin-top: 7vh;
+  border-radius: 1px;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+textarea {
+  background-color: black;
+  resize: none;
+  height: 27vh;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  caret-color: white;
+}
+
+textarea::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: calc(9px + 1vw);
+  color: #BBBBBB;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: calc(6px + 1vw);
+  row-gap: 4vh;
+  margin-bottom: 7vh;
+}
+
+.foot_item {
+  display: flex;
+  flex-direction: row;
+  font-weight: 300;
+  column-gap: 2vw;
+}
+
+.foot_item p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

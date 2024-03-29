@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50vw;
+    max-width: 90%;
+    margin: 5vh 5vw;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: calc(6px + 1.1vw);
+}
+
+.nav_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2vw;
+    column-gap: 3vw;
+}
+
+.logo{
+    font-weight: 700;
+} 
+
+.nav_items p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+ 
+ 

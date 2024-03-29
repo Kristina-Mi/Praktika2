@@ -1,0 +1,29 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30vh;
+}
+
+.about_items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-size: calc(17px + 1vw);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  column-gap: 4vw;
+  margin: 10vh;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7vh;
+  width: 40vw;
+}
+
+.about img {
+  width: 40vw;
+}
